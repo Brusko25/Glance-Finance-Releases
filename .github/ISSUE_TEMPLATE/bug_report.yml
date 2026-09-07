@@ -1,0 +1,39 @@
+name: Bug report
+description: Report a Glance Finance problem
+title: "[Bug] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: App version and Windows version
+      placeholder: Glance Finance 2.0.1, Windows 11
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include the page, action, widget size and Windows display scaling.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: dropdown
+    id: data
+    attributes:
+      label: Data status
+      options:
+        - Current quote
+        - Stale or unavailable
+        - Closed market
+        - Not related to market data
+        - Unsure
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots or exception text
+      description: Remove account names, personal paths and holdings. Do not attach workspace.json, settings or backups.

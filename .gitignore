@@ -1,0 +1,9 @@
+*.exe
+*.dll
+*.pdb
+*.zip
+workspace*.json*
+settings*.json*
+.env*
+*.pfx
+*.key
