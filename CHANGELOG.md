@@ -1,4 +1,17 @@
-# Changelog
+﻿# Changelog
+
+## 2.1.0 — 2026-09-08
+
+- Added a custom chart icon to the app, tray, installer and shortcuts.
+- Clean chart tiles with plain symbol text, no bottom controls, and time ranges in the right-click menu.
+- Bold tile names and 14-pixel prices and a thicker arrow with longer tip wings.
+- Percentage, arrow and chart color now reflect the first visible plotted price through the latest price.
+- Fixed toggle background repaint artifacts and refined keyboard-focus outlines.
+- Added the top 100 coins by market cap (CoinGecko snapshot, September 8, 2026), with name/symbol search and grouped coin menus. Added cached CoinGecko quote/history support for the expanded catalog.
+- Added saved per-widget locking and native corner resizing with stable text sizes.
+- Added a per-user Windows installer with Start menu entry, optional desktop shortcut, and an uninstaller that preserves saved workspaces. Portable ZIP remains available.
+
+Public feeds may be delayed or rate-limited. Rankings are a release snapshot. Both installer and application are unsigned.
 
 ## 2.0.1 — 2026-09-07
 

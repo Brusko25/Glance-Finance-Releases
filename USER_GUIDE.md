@@ -1,10 +1,10 @@
-# Glance Finance user guide
+﻿# Glance Finance user guide
 
-Version 2.0.1 · Windows 10/11 · .NET Framework 4.8
+Version 2.1.0 · Windows 10/11 · .NET Framework 4.8
 
 ## Open and close
 
-Extract the downloaded ZIP to a writable folder, then double-click **GlanceFinance.exe**. This opens the control panel and restores your widgets. Launching it again brings the existing panel forward.
+Run **Glance-Finance-v2.1.0-Setup.exe** to install for your Windows user. No administrator rights are required. Setup creates a Start menu entry and offers an optional desktop shortcut. Alternatively, extract the portable Windows ZIP to a writable folder and double-click **GlanceFinance.exe**. Launching it again brings the existing control panel forward.
 
 Closing the panel keeps widgets running. Open it again from a widget's menu, Ctrl+M while a widget is focused, or the system tray icon. Use **Quit** to close the entire app. Removing a widget does not affect your portfolio.
 
@@ -21,17 +21,21 @@ If click-through is enabled, use the control panel or the tray's **Restore mouse
 
 ## Widget controls
 
-Drag the header beside the symbol to move. Click the symbol to switch among the six built-in coins, or use Home to add any supported market symbol. Hover over the chart for a historical price. Click **1D / 1W / 1M** for a day, week, or month view. Click **...** or right-click for the control panel, pinning, size, refresh, and close.
+The symbol and price are plain text, and the tile has no bottom buttons. Right-click anywhere for **Time range → 1D / 1W / 1M**, coin selection, control panel, pinning, size, refresh, and close. Hover over the chart for historical prices; provider and freshness details are in the widget tooltip.
 
-Default keyboard shortcuts: **Ctrl+R** refresh, **Ctrl+P** pin, **1 / 2 / 3** chart range, **Ctrl+M** control panel, **Alt+F4** close widget. Mini mode shows the header only; use its context menu, shortcuts, or the panel to manage it.
+Choose **Lock widget in place** to prevent movement and resizing, or **Unlock widget** to edit its placement. Each widget saves its lock. **Update Layout → Lock all widgets** overrides these individual settings. When unlocked, drag the top header to move or any corner to resize. Text stays the same size as the chart expands. Mini mode shows only the header.
+
+The **Coin** menu contains the top 100 coins by market capitalization in groups of 20; Home's Crypto filter searches the same catalog. This is a CoinGecko USD ranking snapshot retrieved September 8, 2026, not a continuously reordered ranking. Duplicate ticker symbols have a rank suffix to distinguish the coins. Stablecoins and wrapped assets in the provider's top 100 are included.
+
+Default keyboard shortcuts: **Ctrl+R** refresh, **Ctrl+P** pin, **1 / 2 / 3** chart range, **Ctrl+M** control panel, **Alt+F4** close widget.
 
 ## Market data and calculations
 
-The six built-in coins use public Coinbase Exchange data. Other symbols use Yahoo Finance's public search/chart endpoints. Requests and responses were verified during development, but Yahoo's public endpoints are unofficial and can change or become unavailable. The app displays unavailable/stale states and retries instead of supplying synthetic prices.
+BTC, ETH, SOL, DOGE, XRP, and ADA use public Coinbase Exchange data. The other bundled coins use [CoinGecko](https://www.coingecko.com/en/api) price data. Stocks and other market symbols use Yahoo Finance's public search/chart endpoints. Requests and responses were verified during development, but Yahoo's public endpoints are unofficial and can change or become unavailable. The app displays unavailable/stale states and retries instead of supplying synthetic prices.
 
-Widgets request quotes every 15 seconds and chart history every five minutes, or immediately after a range change. The panel refreshes prices every minute. Requests run asynchronously; selection changes cancel older widget requests. News is loaded from Yahoo's RSS feed and can be refreshed on Home. Headlines link to their publishers.
+Widgets request quotes every 15 seconds and chart history every five minutes, or immediately after a range change. CoinGecko quotes are shared and cached for two minutes; its month history is cached for five minutes and filtered for 1D / 1W / 1M (usually hourly samples). Requests are spaced out to respect public API limits, so a newly added coin can take a few seconds to load. Rate limits show an unavailable/stale state and retry automatically. CoinGecko history does not provide per-candle volume bars. The panel refreshes prices every minute. Requests run asynchronously; selection changes cancel older widget requests. News is loaded from Yahoo's RSS feed and can be refreshed on Home. Headlines link to their publishers.
 
-Crypto ranges are rolling 1 / 7 / 30 days; other assets use a session / five trading days / month. If the current day has no candles, a one-day chart falls back to the last available session. Charts use sampled candles plus the latest available quote, so gaps or delays from the source can remain visible. Intraday Yahoo points use the source's bucket timestamp; Coinbase points use the bucket close. Times display in the PC's local timezone. A widget's return compares its latest price with the first available candle's opening price in the selected range. Chart currency follows the feed.
+Crypto ranges are rolling 1 / 7 / 30 days; other assets use a session / five trading days / month. If the current day has no candles, a one-day chart falls back to the last available session. Charts use sampled candles plus the latest available quote, so gaps or delays from the source can remain visible. Intraday Yahoo points use the source's bucket timestamp; Coinbase points use the bucket close. Times display in the PC's local timezone. The top-right percentage compares the first visible plotted price with the latest price. Changing the selected range changes this comparison. Arrow direction and chart color use the same return. If chart data is unavailable, the percentage displays a dash. Chart currency follows the feed.
 
 The panel's movers compare against the previous daily close (rolling 24-hour opening price for Coinbase crypto). They are ranked within the fetched reference/tracked symbols, not the entire market. Closed markets are shown with their last available trade time. Futures and forex quotes are for display; the portfolio does not calculate futures contract multipliers or currency conversion.
 
@@ -46,11 +50,9 @@ Widgets, layout, colors, shortcuts, calendar entries and transactions are saved 
 
 ## Downloads, updates and support
 
-Download the Windows ZIP from [Glance Finance Releases](https://github.com/Brusko25/Glance-Finance-Releases/releases/latest).
+Download the Windows installer or portable ZIP from [Glance Finance Releases](https://github.com/Brusko25/Glance-Finance-Releases/releases/latest).
 GitHub's automatic Source code archives contain release documentation, not the app.
-Updates are manual: use **Quit**, back up your workspace.json, and extract the
-new executable and documentation over the old folder. The ZIP never includes a
-workspace or settings file. The current executable is unsigned.
+Updates are manual: use **Quit**, back up workspace.json, and run the new installer over the same installation, or replace the executable and documentation in a portable folder. Neither package contains user data. The installer defaults to `%LOCALAPPDATA%\Programs\Glance Finance`. Uninstalling removes installed program files and shortcuts but preserves workspace files; delete those yourself only if you want to remove your data. Moving from an existing portable folder requires copying its workspace.json into the installed app folder while the app is closed. The application and installer are unsigned.
 
 Report problems through [GitHub Issues](https://github.com/Brusko25/Glance-Finance-Releases/issues).
 Include the app version (shown under About), Windows version, reproduction steps,

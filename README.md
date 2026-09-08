@@ -12,14 +12,18 @@ and keep a local record of your USD investments.
 
 ## Get started
 
-1. Download `Glance-Finance-v2.0.1-Windows.zip` from the release page.
-2. Extract it into a writable folder on Windows 10 or 11 with .NET Framework 4.8.
-3. Run **GlanceFinance.exe**. No account, API key or terminal is required.
-4. Use **Home** to search a company/symbol and add desktop widgets.
+1. Download **Glance-Finance-v2.1.0-Setup.exe** from the release page.
+2. Run setup on Windows 10/11 with .NET Framework 4.8. It installs for your user without administrator rights.
+3. Open **Glance Finance** from the Start menu. A desktop shortcut is optional.
+4. Use **Home** to add widgets. Right-click a tile for its time range, coin, lock, and other options.
 
-The current executable is unsigned. The download includes `SHA256SUMS.txt` as a
-separate release asset for checking the ZIP's integrity. GitHub's automatic
-Source code archives contain this repository's documentation, not the app.
+Prefer a portable copy? Download **Glance-Finance-v2.1.0-Windows.zip**, extract it into a writable folder, and run GlanceFinance.exe.
+
+The app and installer are unsigned. **SHA256SUMS.txt** lists hashes for both downloads. GitHub's automatic Source code archives contain documentation, not the app.
+
+## New in 2.1.0
+
+Clean tiles with a bold price and arrow, percentage based on the visible graph, right-click time ranges, saved locking and corner resizing, corrected toggle graphics, a custom app icon, a top-100 crypto catalog, and a Windows installer.
 
 ## What's included
 
@@ -37,16 +41,17 @@ widget's menu. Use **Quit** to close the entire app.
 
 See the **[User guide](USER_GUIDE.md)** for complete controls and data behavior.
 
+The crypto catalog is the top 100 coins by USD market cap from CoinGecko, captured September 8, 2026. Rankings are a release snapshot; quotes and history refresh from the providers. CoinGecko data is cached and rate-limited.
+
 ## Your data and updates
 
 Your workspace, portfolio and settings stay in `workspace.json` beside the app.
-No trades are submitted. Quotes come from Coinbase Exchange and Yahoo Finance;
+No trades are submitted. Quotes come from Coinbase Exchange, CoinGecko and Yahoo Finance;
 they can be delayed, unavailable or reflect a closed market. Yahoo's public
 endpoints are unofficial. Portfolio totals support USD assets; calendar dates
 are entered manually.
 
-Updates are manual: use Quit, back up `workspace.json`, and extract the new
-executable/documentation over the previous installation. Download ZIPs contain
+Updates are manual: use Quit, back up `workspace.json`, and rerun the installer over the same folder, or replace your portable executable and documentation. Uninstalling preserves workspace files. Download ZIPs contain
 no settings or workspace files. `version.json` is public release metadata;
 this version does not have an automatic updater.
 
