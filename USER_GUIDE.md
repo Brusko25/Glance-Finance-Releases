@@ -1,10 +1,10 @@
 ﻿# Glance Finance user guide
 
-Version 2.1.0 · Windows 10/11 · .NET Framework 4.8
+Version 2.2.0 · Windows 10/11 · .NET Framework 4.8
 
 ## Open and close
 
-Run **Glance-Finance-v2.1.0-Setup.exe** to install for your Windows user. No administrator rights are required. Setup creates a Start menu entry and offers an optional desktop shortcut. Alternatively, extract the portable Windows ZIP to a writable folder and double-click **GlanceFinance.exe**. Launching it again brings the existing control panel forward.
+Run **Glance-Finance-v2.2.0-Setup.exe** to install for your Windows user. No administrator rights are required. Setup creates a Start menu entry and offers an optional desktop shortcut. Alternatively, extract the portable Windows ZIP to a writable folder and double-click **GlanceFinance.exe**. Launching it again brings the existing control panel forward.
 
 Closing the panel keeps widgets running. Open it again from a widget's menu, Ctrl+M while a widget is focused, or the system tray icon. Use **Quit** to close the entire app. Removing a widget does not affect your portfolio.
 

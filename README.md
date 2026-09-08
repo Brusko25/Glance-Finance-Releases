@@ -12,16 +12,20 @@ and keep a local record of your USD investments.
 
 ## Get started
 
-1. Download **Glance-Finance-v2.1.0-Setup.exe** from the release page.
+1. Download **Glance-Finance-v2.2.0-Setup.exe** from the release page.
 2. Run setup on Windows 10/11 with .NET Framework 4.8. It installs for your user without administrator rights.
 3. Open **Glance Finance** from the Start menu. A desktop shortcut is optional.
 4. Use **Home** to add widgets. Right-click a tile for its time range, coin, lock, and other options.
 
-Prefer a portable copy? Download **Glance-Finance-v2.1.0-Windows.zip**, extract it into a writable folder, and run GlanceFinance.exe.
+Prefer a portable copy? Download **Glance-Finance-v2.2.0-Windows.zip**, extract it into a writable folder, and run GlanceFinance.exe.
 
 The app and installer are unsigned. **SHA256SUMS.txt** lists hashes for both downloads. GitHub's automatic Source code archives contain documentation, not the app.
 
-## New in 2.1.0
+## New in 2.2.0
+
+Home category switching no longer flashes or rebuilds the entire page. Search text and selection stay intact while results update in place.
+
+## Included features
 
 Clean tiles with a bold price and arrow, percentage based on the visible graph, right-click time ranges, saved locking and corner resizing, corrected toggle graphics, a custom app icon, a top-100 crypto catalog, and a Windows installer.
 

@@ -1,5 +1,9 @@
 ﻿# Changelog
 
+## 2.2.0 — 2026-09-08
+
+- Fixed Home category-tab flashing by updating only the active tab and reusing result rows, preserving search state and the rest of the page.
+
 ## 2.1.0 — 2026-09-08
 
 - Added a custom chart icon to the app, tray, installer and shortcuts.
