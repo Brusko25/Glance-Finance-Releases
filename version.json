@@ -1,8 +1,8 @@
 {
-  "version": "2.1.0",
-  "download_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.1.0/Glance-Finance-v2.1.0-Windows.zip",
-  "installer_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.1.0/Glance-Finance-v2.1.0-Setup.exe",
-  "installer_sha256": "86a097fb65d7e05f7bc84963a3aa624e2842675ec1d981ee6938ecd8c1696532",
-  "changelog": "Clean chart tiles, bold prices and arrows, visible-chart returns, corrected toggles, top 100 crypto catalog, and a per-user Windows installer. Updates are manual.",
-  "sha256": "1c220bc7d0c8f28303d08e8827b318733c0e6e42958369e43f27e378686944fe"
+  "version": "2.2.0",
+  "download_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.2.0/Glance-Finance-v2.2.0-Windows.zip",
+  "installer_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.2.0/Glance-Finance-v2.2.0-Setup.exe",
+  "installer_sha256": "47e7fa52dd7d963bc397798fdeb6476fbe0064297694defa60e067b050ac2274",
+  "changelog": "Smooth Home category switching without full-page flashing; search state and existing controls are preserved. Includes Windows installer and portable ZIP. Updates are manual.",
+  "sha256": "50669479f9055bd6399621ad150e58ba290cf5a4fbee153b5a2a523e720a599e"
 }
