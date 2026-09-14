@@ -12,30 +12,42 @@ and keep a local record of your USD investments.
 
 ## Screenshots
 
-Screenshots from Glance Finance 2.2.0, rendered by the installed app with sample data. Prices and transactions are illustrative; live quotes are disabled in these previews. Click any image to see it full size.
+Glance Finance 2.3.0, captured from the release build in an isolated example workspace. Click an image to see it full size.
 
-| Floating market widget | Find assets and add widgets |
+[![Bitcoin, S&P 500, Dow Jones, and SPCX five-day widgets with continuous market charts and three price references](images/v2.3.0/widgets.png)](images/v2.3.0/widgets.png)
+
+**Five-day market widgets.** Public market snapshot captured September 13, 2026. Stocks and indices show their latest five trading sessions; Bitcoin includes calendar weekends. Prices may reflect the most recent closed session. This is a static screenshot.
+
+| Stock chart detail | Find assets and add widgets |
 | --- | --- |
-| <a href="images/v2.2.0/widget.png"><img src="images/v2.2.0/widget.png" alt="Bitcoin chart with price and percentage change" width="440"></a> | <a href="images/v2.2.0/home.png"><img src="images/v2.2.0/home.png" alt="Home panel with asset search and market categories" width="440"></a> |
+| <a href="images/v2.3.0/stock-chart.png"><img src="images/v2.3.0/stock-chart.png" alt="S&P 500 five-day chart with compressed closed-market time and actual trading dates" width="320"></a> | <a href="images/v2.3.0/home.png"><img src="images/v2.3.0/home.png" alt="Home panel with asset search and market categories in an offline example workspace" width="440"></a> |
+| S&P 500 from the same public market snapshot. | Home with offline example data; live cards are inactive. |
 
 | Track your portfolio | Customize your widgets |
 | --- | --- |
-| <a href="images/v2.2.0/portfolio.png"><img src="images/v2.2.0/portfolio.png" alt="Portfolio with an illustrative holding and transaction totals" width="440"></a> | <a href="images/v2.2.0/appearance.png"><img src="images/v2.2.0/appearance.png" alt="Foreground palettes and widget appearance settings" width="440"></a> |
+| <a href="images/v2.3.0/portfolio.png"><img src="images/v2.3.0/portfolio.png" alt="Portfolio panel with an illustrative AAPL holding and transaction totals" width="440"></a> | <a href="images/v2.3.0/appearance.png"><img src="images/v2.3.0/appearance.png" alt="Color Settings panel with foreground palettes and widget appearance controls" width="440"></a> |
+| Illustrative transactions; live portfolio quotes are disabled. | Appearance controls in the isolated example workspace. |
+
+[Image provenance and capture details](images/v2.3.0/README.md)
 
 ## Get started
 
-1. Download **Glance-Finance-v2.2.0-Setup.exe** from the release page.
+1. Download **Glance-Finance-v2.3.0-Setup.exe** from the release page.
 2. Run setup on Windows 10/11 with .NET Framework 4.8. It installs for your user without administrator rights.
 3. Open **Glance Finance** from the Start menu. A desktop shortcut is optional.
 4. Use **Home** to add widgets. Right-click a tile for its time range, coin, lock, and other options.
 
-Prefer a portable copy? Download **Glance-Finance-v2.2.0-Windows.zip**, extract it into a writable folder, and run GlanceFinance.exe.
+Prefer a portable copy? Download **Glance-Finance-v2.3.0-Windows.zip**, extract it into a writable folder, and run GlanceFinance.exe.
 
 The app and installer are unsigned. **SHA256SUMS.txt** lists hashes for both downloads. GitHub's automatic Source code archives contain documentation, not the app.
 
-## New in 2.2.0
+## New in 2.3.0
 
-Home category switching no longer flashes or rebuilds the entire page. Search text and selection stay intact while results update in place.
+- Stock, fund, and index charts compress closed-market time for a continuous view of available price samples. Five-day views show the latest five trading sessions with their actual dates.
+- Yahoo chart samples use **1D → 5 minutes**, **five-day → 30 minutes**, and **1M → 180 minutes**, including pre-market and after-hours data when the provider supplies it.
+- Three evenly spaced price references sit around the average visible price, with tighter reference spacing and room for the full price movement.
+- Widget backgrounds are solid colors, with true black as the default. The widget layout stays the same.
+- Crypto keeps its continuous calendar timeline, including weekends.
 
 ## Included features
 

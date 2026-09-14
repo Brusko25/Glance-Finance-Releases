@@ -1,5 +1,9 @@
 # Release history
 
+## [Glance Finance 2.3.0](https://github.com/Brusko25/Glance-Finance-Releases/releases/tag/v2.3.0) — 2026-09-13
+
+Continuous stock, fund, and index charts compress closed-market time and label actual trading dates. Yahoo chart sampling is 5 minutes for 1D, 30 minutes for five days, and 180 minutes for 1M, with extended-hours data when available. Three price references center on the visible average, and widget backgrounds default to true black. Crypto retains its calendar timeline. Updated release screenshots, Windows installer, portable ZIP, and SHA-256 checksums are included.
+
 ## [Glance Finance 2.2.0](https://github.com/Brusko25/Glance-Finance-Releases/releases/tag/v2.2.0) — 2026-09-08
 
 Smooth Home category switching without full-page flashing, preserved search state, and reusable result rows. Windows installer and portable ZIP are available with checksums; saved workspaces are preserved.

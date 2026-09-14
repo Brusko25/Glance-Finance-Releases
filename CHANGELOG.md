@@ -1,5 +1,15 @@
 ﻿# Changelog
 
+## 2.3.0 — 2026-09-13
+
+- Centered each chart on its average visible market price, with an equal price range above and below and room for all highs and lows.
+- Set Yahoo chart sampling to 5 minutes for 1D, 30 minutes for 1W, and 180 minutes for 1M, including pre-market and after-hours data when supplied. Monthly samples combine 30-minute feed bars while preserving final prices and total volume. Newer extended-session prices update the widget header and are identified in its provider tooltip.
+
+- Added three evenly spaced, rounded price references and horizontal gridlines to every chart. Reference intervals use half the initial spacing for a tighter scale while retaining the full price movement. Label precision follows the price range, and the left margin expands for longer prices.
+
+- Stock, fund and index charts compress time without market samples, removing long overnight and weekend stretches. The 1W view uses the latest five trading sessions with labels centered on their actual dates. Crypto retains five consecutive calendar days. Price, hover and volume positions share the same timeline; the widget layout stays unchanged.
+- Widget backgrounds are solid colors without a gradient, with true black (#000000) as the default.
+
 ## 2.2.0 — 2026-09-08
 
 - Fixed Home category-tab flashing by updating only the active tab and reusing result rows, preserving search state and the rest of the page.
