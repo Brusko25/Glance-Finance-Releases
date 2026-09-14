@@ -1,10 +1,10 @@
-﻿# Glance Finance user guide
+# Glance LLM Usage user guide
 
 Version 2.2.0 · Windows 10/11 · .NET Framework 4.8
 
 ## Open and close
 
-Run **Glance-Finance-v2.2.0-Setup.exe** to install for your Windows user. No administrator rights are required. Setup creates a Start menu entry and offers an optional desktop shortcut. Alternatively, extract the portable Windows ZIP to a writable folder and double-click **GlanceFinance.exe**. Launching it again brings the existing control panel forward.
+Run **Glance-LLM-Usage-v2.4.0-Setup.exe** to install for your Windows user. No administrator rights are required. Setup creates a Start menu entry and offers an optional desktop shortcut. Alternatively, extract the portable Windows ZIP to a writable folder and double-click **GlanceFinance.exe**. Launching it again brings the existing control panel forward.
 
 Closing the panel keeps widgets running. Open it again from a widget's menu, Ctrl+M while a widget is focused, or the system tray icon. Use **Quit** to close the entire app. Removing a widget does not affect your portfolio.
 
@@ -50,11 +50,13 @@ Widgets, layout, colors, shortcuts, calendar entries and transactions are saved 
 
 ## Downloads, updates and support
 
-Download the Windows installer or portable ZIP from [Glance Finance Releases](https://github.com/Brusko25/Glance-Finance-Releases/releases/latest).
+Download the Windows installer or portable ZIP from [Glance LLM Usage Releases](https://github.com/Brusko25/Glance-LLM-Usage-Releases/releases/latest).
 GitHub's automatic Source code archives contain release documentation, not the app.
-Updates are manual: use **Quit**, back up workspace.json, and run the new installer over the same installation, or replace the executable and documentation in a portable folder. Neither package contains user data. The installer defaults to `%LOCALAPPDATA%\Programs\Glance Finance`. Uninstalling removes installed program files and shortcuts but preserves workspace files; delete those yourself only if you want to remove your data. Moving from an existing portable folder requires copying its workspace.json into the installed app folder while the app is closed. The application and installer are unsigned.
+Updates are manual: use **Quit**, back up workspace.json, and run the new installer over the same installation, or replace the executable and documentation in a portable folder. Neither package contains user data. The installer defaults to `%LOCALAPPDATA%\Programs\Glance LLM Usage`. Uninstalling removes installed program files and shortcuts but preserves workspace files; delete those yourself only if you want to remove your data. Moving from an existing portable folder requires copying its workspace.json into the installed app folder while the app is closed. The application and installer are unsigned.
 
-Report problems through [GitHub Issues](https://github.com/Brusko25/Glance-Finance-Releases/issues).
+Report problems through [GitHub Issues](https://github.com/Brusko25/Glance-LLM-Usage-Releases/issues).
 Include the app version (shown under About), Windows version, reproduction steps,
 and exception text if present. Remove personal paths and portfolio information.
 Do not attach workspace.json, settings, backups or account credentials.
+
+Existing Glance Finance installations keep their original installation folder during upgrades. The executable remains named GlanceFinance.exe for compatibility with existing workspaces and shortcuts.

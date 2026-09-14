@@ -1,4 +1,10 @@
-﻿# Changelog
+# Changelog
+
+## 2.4.0 — 2026-09-13
+
+- Renamed Glance Finance to Glance LLM Usage across the app, installer, shortcuts, documentation, and GitHub repositories.
+- Preserved the existing stock, crypto, portfolio, and chart features and the saved-workspace format. Existing installations retain their original folder during upgrades.
+- Refreshed release screenshots with popular stock and crypto examples showing both green gains and red losses.
 
 ## 2.3.0 — 2026-09-13
 
