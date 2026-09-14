@@ -1,10 +1,10 @@
-# Glance LLM Usage
+# Glance Finance
 
-Public Windows downloads, release history and support for Glance LLM Usage (formerly Glance Finance).
+Public Windows downloads, release history and support for Glance Finance.
 Application source and development history are maintained in the private
-`Glance-LLM-Usage-Code` repository.
+`Glance-Finance-Code` repository.
 
-**[Download the latest Windows release](https://github.com/Brusko25/Glance-LLM-Usage-Releases/releases/latest)**
+**[Download the latest Windows release](https://github.com/Brusko25/Glance-Finance-Releases/releases/latest)**
 
 A compact desktop finance app with floating market widgets and a dark control
 panel. Track stocks, funds, indices, futures, forex and crypto; organize widgets;
@@ -12,40 +12,42 @@ and keep a local record of your USD investments.
 
 ## Screenshots
 
-Glance LLM Usage 2.4.0, captured from the release build in an isolated example workspace. Click an image to see it full size.
+Glance Finance 2.4.1, captured from the release build in an isolated example workspace. Click an image to see it full size.
 
-[![Apple and Ethereum in green, NVIDIA and Solana in red, showing five-day stock and crypto charts](images/v2.4.0/widgets.png)](images/v2.4.0/widgets.png)
+[![Apple and Ethereum in green, NVIDIA and Solana in red, showing five-day stock and crypto charts](images/v2.4.1/widgets.png)](images/v2.4.1/widgets.png)
 
 **Five-day stock and crypto examples.** Apple and Ethereum show gains in green; NVIDIA and Solana show losses in red. Public market snapshots captured September 13, 2026, selected independently of any personal workspace. Stocks show their latest five trading sessions; crypto includes weekends. Prices may reflect the most recent closed session. This is a static screenshot.
 
 | Stock chart detail | Find assets and add widgets |
 | --- | --- |
-| <a href="images/v2.4.0/stock-chart.png"><img src="images/v2.4.0/stock-chart.png" alt="Apple five-day chart showing a green gain with actual trading dates" width="320"></a> | <a href="images/v2.4.0/home.png"><img src="images/v2.4.0/home.png" alt="Home panel with asset search and market categories in an offline example workspace" width="440"></a> |
+| <a href="images/v2.4.1/stock-chart.png"><img src="images/v2.4.1/stock-chart.png" alt="Apple five-day chart showing a green gain with actual trading dates" width="320"></a> | <a href="images/v2.4.1/home.png"><img src="images/v2.4.1/home.png" alt="Home panel with asset search and market categories in an offline example workspace" width="440"></a> |
 | Apple from the same public market snapshot. | Home with offline example data; live cards are inactive. |
 
 | Track your portfolio | Customize your widgets |
 | --- | --- |
-| <a href="images/v2.4.0/portfolio.png"><img src="images/v2.4.0/portfolio.png" alt="Portfolio panel with an illustrative AAPL holding and transaction totals" width="440"></a> | <a href="images/v2.4.0/appearance.png"><img src="images/v2.4.0/appearance.png" alt="Color Settings panel with foreground palettes and widget appearance controls" width="440"></a> |
+| <a href="images/v2.4.1/portfolio.png"><img src="images/v2.4.1/portfolio.png" alt="Portfolio panel with an illustrative AAPL holding and transaction totals" width="440"></a> | <a href="images/v2.4.1/appearance.png"><img src="images/v2.4.1/appearance.png" alt="Color Settings panel with foreground palettes and widget appearance controls" width="440"></a> |
 | Illustrative transactions; live portfolio quotes are disabled. | Appearance controls in the isolated example workspace. |
 
-[Image provenance and capture details](images/v2.4.0/README.md)
+[Image provenance and capture details](images/v2.4.1/README.md)
 
 ## Get started
 
-1. Download **Glance-LLM-Usage-v2.4.0-Setup.exe** from the release page.
+1. Download **Glance-Finance-v2.4.1-Setup.exe** from the release page.
 2. Run setup on Windows 10/11 with .NET Framework 4.8. It installs for your user without administrator rights.
-3. Open **Glance LLM Usage** from the Start menu. A desktop shortcut is optional.
+3. Open **Glance Finance** from the Start menu. A desktop shortcut is optional.
 4. Use **Home** to add widgets. Right-click a tile for its time range, coin, lock, and other options.
 
-Prefer a portable copy? Download **Glance-LLM-Usage-v2.4.0-Windows.zip**, extract it into a writable folder, and run GlanceFinance.exe.
+Prefer a portable copy? Download **Glance-Finance-v2.4.1-Windows.zip**, extract it into a writable folder, and run GlanceFinance.exe.
 
 The app and installer are unsigned. **SHA256SUMS.txt** lists hashes for both downloads. GitHub's automatic Source code archives contain documentation, not the app.
 
-## New in 2.4.0
+## New in 2.4.1
 
-Glance Finance is now **Glance LLM Usage**. This is the same finance app, with updated app titles, installer shortcuts, documentation, and GitHub locations. Stock and crypto widgets, portfolio tools, chart detail, and saved workspaces are preserved.
+The stock, crypto, and portfolio app is **Glance Finance**. Version 2.4.0 mistakenly used the Glance LLM Usage name; this update restores the correct app branding, installer shortcuts, and GitHub locations.
 
-Existing installations keep their original folder during upgrades. The executable remains named GlanceFinance.exe for compatibility. New installations use the Glance LLM Usage folder and Start menu entry.
+Existing installations keep their folder and workspace when upgraded, even if the folder carries the mistaken name. The executable remains GlanceFinance.exe. Use the finance installer for this app. New installations use the Glance Finance folder.
+
+Looking for Codex, Spark, and Claude subscription limits? That is the separate [Glance LLM Usage widget](https://github.com/Brusko25/Glance-LLM-Usage-Releases).
 
 ## Included features
 
@@ -83,7 +85,7 @@ this version does not have an automatic updater.
 
 ## Support and history
 
-- [Report a bug or request a feature](https://github.com/Brusko25/Glance-LLM-Usage-Releases/issues)
+- [Report a bug or request a feature](https://github.com/Brusko25/Glance-Finance-Releases/issues)
 - [Release history](RELEASES.md)
 - [Changelog](CHANGELOG.md)
 

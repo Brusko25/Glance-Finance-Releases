@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.4.1 — 2026-09-14
+
+- Restored the Glance Finance name for the stock, crypto, and portfolio app. Corrected app branding, installer shortcuts, and repository links. Existing installation folders and workspace files are preserved. Updates remain manual.
+- Version 2.4.0 was mistakenly branded Glance LLM Usage; that name belongs to the separate usage widget. Historical release names remain recorded below.
+
 ## 2.4.0 — 2026-09-13
 
 - Renamed Glance Finance to Glance LLM Usage across the app, installer, shortcuts, documentation, and GitHub repositories.
