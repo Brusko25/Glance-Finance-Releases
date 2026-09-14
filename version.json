@@ -1,8 +1,8 @@
 {
-  "version": "2.4.0",
-  "download_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.4.0/Glance-LLM-Usage-v2.4.0-Windows.zip",
-  "installer_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.4.0/Glance-LLM-Usage-v2.4.0-Setup.exe",
-  "installer_sha256": "5d69229bc112f57283af0b6845769f637690bc67e72d2e24ba874709143e0780",
-  "changelog": "Renamed Glance Finance to Glance LLM Usage. The existing stock, crypto, portfolio, and chart features are preserved. Updated app branding, installer shortcuts, documentation, and GitHub locations. Existing workspaces and installation folders are preserved on upgrade. Updates remain manual.",
-  "sha256": "a3ae7017be450851367f164e753093540eb410eea5835d5dca36bcc95eecc54b"
+  "version": "2.4.1",
+  "download_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.4.1/Glance-Finance-v2.4.1-Windows.zip",
+  "installer_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.4.1/Glance-Finance-v2.4.1-Setup.exe",
+  "installer_sha256": "e6fff3f97899018b1bd9ca7dba18c3feac6bc6d889cc1e0b4b1c74ed82492a31",
+  "changelog": "Restored the Glance Finance name for the stock, crypto, and portfolio app. Corrected app branding, installer shortcuts, and repository links. Existing installation folders and workspace files are preserved. Updates remain manual.",
+  "sha256": "187186217c8608b10fcb3d46d947700c6a4c10eb34167d9fdd5cf96be041698b"
 }
