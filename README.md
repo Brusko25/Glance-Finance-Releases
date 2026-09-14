@@ -10,6 +10,18 @@ A compact desktop finance app with floating market widgets and a dark control
 panel. Track stocks, funds, indices, futures, forex and crypto; organize widgets;
 and keep a local record of your USD investments.
 
+## Screenshots
+
+Screenshots from Glance Finance 2.2.0, rendered by the installed app with sample data. Prices and transactions are illustrative; live quotes are disabled in these previews. Click any image to see it full size.
+
+| Floating market widget | Find assets and add widgets |
+| --- | --- |
+| <a href="images/v2.2.0/widget.png"><img src="images/v2.2.0/widget.png" alt="Bitcoin chart with price and percentage change" width="440"></a> | <a href="images/v2.2.0/home.png"><img src="images/v2.2.0/home.png" alt="Home panel with asset search and market categories" width="440"></a> |
+
+| Track your portfolio | Customize your widgets |
+| --- | --- |
+| <a href="images/v2.2.0/portfolio.png"><img src="images/v2.2.0/portfolio.png" alt="Portfolio with an illustrative holding and transaction totals" width="440"></a> | <a href="images/v2.2.0/appearance.png"><img src="images/v2.2.0/appearance.png" alt="Foreground palettes and widget appearance settings" width="440"></a> |
+
 ## Get started
 
 1. Download **Glance-Finance-v2.2.0-Setup.exe** from the release page.
