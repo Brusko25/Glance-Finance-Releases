@@ -1,8 +1,8 @@
 {
-  "version": "2.2.0",
-  "download_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.2.0/Glance-Finance-v2.2.0-Windows.zip",
-  "installer_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.2.0/Glance-Finance-v2.2.0-Setup.exe",
-  "installer_sha256": "47e7fa52dd7d963bc397798fdeb6476fbe0064297694defa60e067b050ac2274",
-  "changelog": "Smooth Home category switching without full-page flashing; search state and existing controls are preserved. Includes Windows installer and portable ZIP. Updates are manual.",
-  "sha256": "50669479f9055bd6399621ad150e58ba290cf5a4fbee153b5a2a523e720a599e"
+  "version": "2.3.0",
+  "download_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.3.0/Glance-Finance-v2.3.0-Windows.zip",
+  "installer_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.3.0/Glance-Finance-v2.3.0-Setup.exe",
+  "installer_sha256": "848a01642e391508b79f459bd71d6bb76c34930b59c1a62a12ecfd4cba299048",
+  "changelog": "Continuous stock and index charts with compressed closed-market time, actual trading-day labels, average-centered price scales, three rounded price references, true-black backgrounds, and extended-hours data. Stock sampling: 5, 30, and 180 minutes. Installer and portable ZIP; updates are manual.",
+  "sha256": "94805036f764c8e455672477a08136763871689e15f0c682bd55dadbc2ca15be"
 }
