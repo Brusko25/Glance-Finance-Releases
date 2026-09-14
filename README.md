@@ -14,14 +14,14 @@ and keep a local record of your USD investments.
 
 Glance Finance 2.3.0, captured from the release build in an isolated example workspace. Click an image to see it full size.
 
-[![Bitcoin, S&P 500, Dow Jones, and SPCX five-day widgets with continuous market charts and three price references](images/v2.3.0/widgets.png)](images/v2.3.0/widgets.png)
+[![Apple and Ethereum in green, NVIDIA and Solana in red, showing five-day stock and crypto charts](images/v2.3.0/popular-examples/widgets.png)](images/v2.3.0/popular-examples/widgets.png)
 
-**Five-day market widgets.** Public market snapshot captured September 13, 2026. Stocks and indices show their latest five trading sessions; Bitcoin includes calendar weekends. Prices may reflect the most recent closed session. This is a static screenshot.
+**Five-day stock and crypto examples.** Apple and Ethereum show gains in green; NVIDIA and Solana show losses in red. Public market snapshots captured September 13, 2026, selected independently of any personal workspace. Stocks show their latest five trading sessions; crypto includes weekends. Prices may reflect the most recent closed session. This is a static screenshot.
 
 | Stock chart detail | Find assets and add widgets |
 | --- | --- |
-| <a href="images/v2.3.0/stock-chart.png"><img src="images/v2.3.0/stock-chart.png" alt="S&P 500 five-day chart with compressed closed-market time and actual trading dates" width="320"></a> | <a href="images/v2.3.0/home.png"><img src="images/v2.3.0/home.png" alt="Home panel with asset search and market categories in an offline example workspace" width="440"></a> |
-| S&P 500 from the same public market snapshot. | Home with offline example data; live cards are inactive. |
+| <a href="images/v2.3.0/popular-examples/stock-chart.png"><img src="images/v2.3.0/popular-examples/stock-chart.png" alt="Apple five-day chart showing a green gain with actual trading dates" width="320"></a> | <a href="images/v2.3.0/home.png"><img src="images/v2.3.0/home.png" alt="Home panel with asset search and market categories in an offline example workspace" width="440"></a> |
+| Apple from the same public market snapshot. | Home with offline example data; live cards are inactive. |
 
 | Track your portfolio | Customize your widgets |
 | --- | --- |

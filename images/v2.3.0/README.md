@@ -1,5 +1,7 @@
 # Glance Finance 2.3.0 screenshots
 
+The homepage and release notes now feature [popular stock and crypto examples](popular-examples/README.md): Apple and Ethereum in green, NVIDIA and Solana in red. The original captures described below are preserved for reference.
+
 Captured September 13, 2026 from the packaged Glance Finance 2.3.0 Windows executable, using its isolated release screenshot mode.
 
 - **widgets.png:** Four actual chart widgets composed into an overview with a version/date caption. BTC-USD, ^GSPC, ^DJI, and SPCX use public market-feed snapshots and the five-day range. These are static snapshots and can include the latest closed-session prices.
