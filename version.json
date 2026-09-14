@@ -1,8 +1,8 @@
 {
-  "version": "2.3.0",
-  "download_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.3.0/Glance-Finance-v2.3.0-Windows.zip",
-  "installer_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.3.0/Glance-Finance-v2.3.0-Setup.exe",
-  "installer_sha256": "848a01642e391508b79f459bd71d6bb76c34930b59c1a62a12ecfd4cba299048",
-  "changelog": "Continuous stock and index charts with compressed closed-market time, actual trading-day labels, average-centered price scales, three rounded price references, true-black backgrounds, and extended-hours data. Stock sampling: 5, 30, and 180 minutes. Installer and portable ZIP; updates are manual.",
-  "sha256": "94805036f764c8e455672477a08136763871689e15f0c682bd55dadbc2ca15be"
+  "version": "2.4.0",
+  "download_url": "https://github.com/Brusko25/Glance-LLM-Usage-Releases/releases/download/v2.4.0/Glance-LLM-Usage-v2.4.0-Windows.zip",
+  "installer_url": "https://github.com/Brusko25/Glance-LLM-Usage-Releases/releases/download/v2.4.0/Glance-LLM-Usage-v2.4.0-Setup.exe",
+  "installer_sha256": "5d69229bc112f57283af0b6845769f637690bc67e72d2e24ba874709143e0780",
+  "changelog": "Renamed Glance Finance to Glance LLM Usage. The existing stock, crypto, portfolio, and chart features are preserved. Updated app branding, installer shortcuts, documentation, and GitHub locations. Existing workspaces and installation folders are preserved on upgrade. Updates remain manual.",
+  "sha256": "a3ae7017be450851367f164e753093540eb410eea5835d5dca36bcc95eecc54b"
 }
