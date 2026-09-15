@@ -1,5 +1,10 @@
 # Release history
 
+## [Glance Finance 2.4.2](https://github.com/Brusko25/Glance-Finance-Releases/releases/tag/v2.4.2) — 2026-09-15
+
+Detects newer stable releases at startup and daily, with manual checks from the panel, widget, and tray. Opens the download page only when requested; installation stays manual. Includes the corrected Finance branding and preserves saved workspaces.
+
+
 ## [Glance Finance 2.4.1](https://github.com/Brusko25/Glance-Finance-Releases/releases/tag/v2.4.1) — 2026-09-14
 
 Restores the finance app name after 2.4.0 was mistakenly branded Glance LLM Usage. Corrects app titles, installer shortcuts, documentation, and repository links while preserving workspaces and installation identity. The installer rejects folders containing the separate usage widget. Updates remain manual.

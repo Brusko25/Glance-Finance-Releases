@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.4.2 — 2026-09-15
+
+- Detect newer stable releases at startup and daily; add manual update checks and optional links to the product download page.
+
 ## 2.4.1 — 2026-09-14
 
 - Restored the Glance Finance name for the stock, crypto, and portfolio app. Corrected app branding, installer shortcuts, and repository links. Existing installation folders and workspace files are preserved. Updates remain manual.

@@ -12,38 +12,42 @@ and keep a local record of your USD investments.
 
 ## Screenshots
 
-Glance Finance 2.4.1, captured from the release build in an isolated example workspace. Click an image to see it full size.
+Glance Finance 2.4.2, captured from the release build in an isolated example workspace. Click an image to see it full size.
 
-[![Apple and Ethereum in green, NVIDIA and Solana in red, showing five-day stock and crypto charts](images/v2.4.1/widgets.png)](images/v2.4.1/widgets.png)
+[![Apple, NVIDIA, Ethereum, and Solana five-day stock and crypto charts](images/v2.4.2/widgets.png)](images/v2.4.2/widgets.png)
 
-**Five-day stock and crypto examples.** Apple and Ethereum show gains in green; NVIDIA and Solana show losses in red. Public market snapshots captured September 13, 2026, selected independently of any personal workspace. Stocks show their latest five trading sessions; crypto includes weekends. Prices may reflect the most recent closed session. This is a static screenshot.
+**Five-day stock and crypto examples.** Gains appear in green and losses in red. Public market snapshots captured September 15, 2026, selected independently of any personal workspace. Stocks show their latest five trading sessions; crypto includes weekends. Prices may reflect the most recent closed session. This is a static screenshot.
 
 | Stock chart detail | Find assets and add widgets |
 | --- | --- |
-| <a href="images/v2.4.1/stock-chart.png"><img src="images/v2.4.1/stock-chart.png" alt="Apple five-day chart showing a green gain with actual trading dates" width="320"></a> | <a href="images/v2.4.1/home.png"><img src="images/v2.4.1/home.png" alt="Home panel with asset search and market categories in an offline example workspace" width="440"></a> |
+| <a href="images/v2.4.2/stock-chart.png"><img src="images/v2.4.2/stock-chart.png" alt="Apple five-day chart with actual trading dates" width="320"></a> | <a href="images/v2.4.2/home.png"><img src="images/v2.4.2/home.png" alt="Home panel with asset search and market categories in an offline example workspace" width="440"></a> |
 | Apple from the same public market snapshot. | Home with offline example data; live cards are inactive. |
 
 | Track your portfolio | Customize your widgets |
 | --- | --- |
-| <a href="images/v2.4.1/portfolio.png"><img src="images/v2.4.1/portfolio.png" alt="Portfolio panel with an illustrative AAPL holding and transaction totals" width="440"></a> | <a href="images/v2.4.1/appearance.png"><img src="images/v2.4.1/appearance.png" alt="Color Settings panel with foreground palettes and widget appearance controls" width="440"></a> |
+| <a href="images/v2.4.2/portfolio.png"><img src="images/v2.4.2/portfolio.png" alt="Portfolio panel with an illustrative AAPL holding and transaction totals" width="440"></a> | <a href="images/v2.4.2/appearance.png"><img src="images/v2.4.2/appearance.png" alt="Color Settings panel with foreground palettes and widget appearance controls" width="440"></a> |
 | Illustrative transactions; live portfolio quotes are disabled. | Appearance controls in the isolated example workspace. |
 
-[Image provenance and capture details](images/v2.4.1/README.md)
+[Image provenance and capture details](images/v2.4.2/README.md)
 
 ## Get started
 
-1. Download **Glance-Finance-v2.4.1-Setup.exe** from the release page.
+1. Download **Glance-Finance-v2.4.2-Setup.exe** from the release page.
 2. Run setup on Windows 10/11 with .NET Framework 4.8. It installs for your user without administrator rights.
 3. Open **Glance Finance** from the Start menu. A desktop shortcut is optional.
 4. Use **Home** to add widgets. Right-click a tile for its time range, coin, lock, and other options.
 
-Prefer a portable copy? Download **Glance-Finance-v2.4.1-Windows.zip**, extract it into a writable folder, and run GlanceFinance.exe.
+Prefer a portable copy? Download **Glance-Finance-v2.4.2-Windows.zip**, extract it into a writable folder, and run GlanceFinance.exe.
 
 The app and installer are unsigned. **SHA256SUMS.txt** lists hashes for both downloads. GitHub's automatic Source code archives contain documentation, not the app.
 
-## New in 2.4.1
+## New in 2.4.2
 
-The stock, crypto, and portfolio app is **Glance Finance**. Version 2.4.0 mistakenly used the Glance LLM Usage name; this update restores the correct app branding, installer shortcuts, and GitHub locations.
+The app checks its public GitHub releases shortly after startup and daily. Choose **Check for updates** from the widget or tray menu to check immediately. When a newer stable version is available, you can open the release page. Downloads and installation remain manual; update checks send no account credentials or workspace data.
+
+### Finance app name
+
+The stock, crypto, and portfolio app is **Glance Finance**. Version 2.4.0 mistakenly used the Glance LLM Usage name; version 2.4.1 restored the correct app branding, installer shortcuts, and GitHub locations.
 
 Existing installations keep their folder and workspace when upgraded, even if the folder carries the mistaken name. The executable remains GlanceFinance.exe. Use the finance installer for this app. New installations use the Glance Finance folder.
 
@@ -79,9 +83,9 @@ they can be delayed, unavailable or reflect a closed market. Yahoo's public
 endpoints are unofficial. Portfolio totals support USD assets; calendar dates
 are entered manually.
 
-Updates are manual: use Quit, back up `workspace.json`, and rerun the installer over the same folder, or replace your portable executable and documentation. Uninstalling preserves workspace files. Download ZIPs contain
+Installing updates is manual: use Quit, back up `workspace.json`, and rerun the installer over the same folder, or replace your portable executable and documentation. Uninstalling preserves workspace files. Download ZIPs contain
 no settings or workspace files. `version.json` is public release metadata;
-this version does not have an automatic updater.
+new releases are detected automatically, with installation kept manual.
 
 ## Support and history
 
