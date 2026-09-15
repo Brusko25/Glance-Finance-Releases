@@ -1,8 +1,8 @@
 {
-  "version": "2.4.1",
-  "download_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.4.1/Glance-Finance-v2.4.1-Windows.zip",
-  "installer_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.4.1/Glance-Finance-v2.4.1-Setup.exe",
-  "installer_sha256": "e6fff3f97899018b1bd9ca7dba18c3feac6bc6d889cc1e0b4b1c74ed82492a31",
-  "changelog": "Restored the Glance Finance name for the stock, crypto, and portfolio app. Corrected app branding, installer shortcuts, and repository links. Existing installation folders and workspace files are preserved. Updates remain manual.",
-  "sha256": "187186217c8608b10fcb3d46d947700c6a4c10eb34167d9fdd5cf96be041698b"
+  "version": "2.4.2",
+  "download_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.4.2/Glance-Finance-v2.4.2-Windows.zip",
+  "installer_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.4.2/Glance-Finance-v2.4.2-Setup.exe",
+  "installer_sha256": "32245786ba4bdcec1b1539b502815c8bde3a69ad5e2eb454e818a45e4a8c658a",
+  "changelog": "Detect newer stable releases at startup and daily, with manual checks and optional links to downloads. Installation remains manual and existing settings are preserved.",
+  "sha256": "c2db013dd8ec52d5123feb4ef01f3fcae753c2cdd0fdecaa835341c6a5c8b78b"
 }
