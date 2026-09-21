@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.5.0 — 2026-09-20
+
+- Snap nearby widget edges together while dragging, with a saved toggle under Update Layout.
+
+- Keep the three horizontal chart gridlines at fixed heights and use round price references with intervals suited to the visible range.
+
 ## 2.4.2 — 2026-09-15
 
 - Detect newer stable releases at startup and daily; add manual update checks and optional links to the product download page.

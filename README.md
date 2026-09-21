@@ -12,38 +12,44 @@ and keep a local record of your USD investments.
 
 ## Screenshots
 
-Glance Finance 2.4.2, captured from the release build in an isolated example workspace. Click an image to see it full size.
+Glance Finance 2.5.0, captured from the release build in an isolated example workspace. Click an image to see it full size.
 
-[![Apple, NVIDIA, Ethereum, and Solana five-day stock and crypto charts](images/v2.4.2/widgets.png)](images/v2.4.2/widgets.png)
+[![Apple, NVIDIA, Ethereum, and Solana five-day stock and crypto charts](images/v2.5.0/widgets.png)](images/v2.5.0/widgets.png)
 
-**Five-day stock and crypto examples.** Gains appear in green and losses in red. Public market snapshots captured September 15, 2026, selected independently of any personal workspace. Stocks show their latest five trading sessions; crypto includes weekends. Prices may reflect the most recent closed session. This is a static screenshot.
+**Five-day stock and crypto examples.** Gains appear in green and losses in red. Public market snapshots captured September 20, 2026, selected independently of any personal workspace. Stocks show their latest five trading sessions; crypto includes weekends. Prices may reflect the most recent closed session. This is a static screenshot.
 
 | Stock chart detail | Find assets and add widgets |
 | --- | --- |
-| <a href="images/v2.4.2/stock-chart.png"><img src="images/v2.4.2/stock-chart.png" alt="Apple five-day chart with actual trading dates" width="320"></a> | <a href="images/v2.4.2/home.png"><img src="images/v2.4.2/home.png" alt="Home panel with asset search and market categories in an offline example workspace" width="440"></a> |
+| <a href="images/v2.5.0/stock-chart.png"><img src="images/v2.5.0/stock-chart.png" alt="Apple five-day chart with actual trading dates" width="320"></a> | <a href="images/v2.5.0/home.png"><img src="images/v2.5.0/home.png" alt="Home panel with asset search and market categories in an offline example workspace" width="440"></a> |
 | Apple from the same public market snapshot. | Home with offline example data; live cards are inactive. |
 
 | Track your portfolio | Customize your widgets |
 | --- | --- |
-| <a href="images/v2.4.2/portfolio.png"><img src="images/v2.4.2/portfolio.png" alt="Portfolio panel with an illustrative AAPL holding and transaction totals" width="440"></a> | <a href="images/v2.4.2/appearance.png"><img src="images/v2.4.2/appearance.png" alt="Color Settings panel with foreground palettes and widget appearance controls" width="440"></a> |
+| <a href="images/v2.5.0/portfolio.png"><img src="images/v2.5.0/portfolio.png" alt="Portfolio panel with an illustrative AAPL holding and transaction totals" width="440"></a> | <a href="images/v2.5.0/appearance.png"><img src="images/v2.5.0/appearance.png" alt="Color Settings panel with foreground palettes and widget appearance controls" width="440"></a> |
 | Illustrative transactions; live portfolio quotes are disabled. | Appearance controls in the isolated example workspace. |
 
-[Image provenance and capture details](images/v2.4.2/README.md)
+[![Update Layout with Snap to other tiles enabled](images/v2.5.0/layout.png)](images/v2.5.0/layout.png)
+
+**Tile snapping.** The new control is enabled by default; this view uses an isolated example workspace.
+
+[Image provenance and capture details](images/v2.5.0/README.md)
 
 ## Get started
 
-1. Download **Glance-Finance-v2.4.2-Setup.exe** from the release page.
+1. Download **Glance-Finance-v2.5.0-Setup.exe** from the release page.
 2. Run setup on Windows 10/11 with .NET Framework 4.8. It installs for your user without administrator rights.
 3. Open **Glance Finance** from the Start menu. A desktop shortcut is optional.
 4. Use **Home** to add widgets. Right-click a tile for its time range, coin, lock, and other options.
 
-Prefer a portable copy? Download **Glance-Finance-v2.4.2-Windows.zip**, extract it into a writable folder, and run GlanceFinance.exe.
+Prefer a portable copy? Download **Glance-Finance-v2.5.0-Windows.zip**, extract it into a writable folder, and run GlanceFinance.exe.
 
 The app and installer are unsigned. **SHA256SUMS.txt** lists hashes for both downloads. GitHub's automatic Source code archives contain documentation, not the app.
 
-## New in 2.4.2
+## New in 2.5.0
 
-The app checks its public GitHub releases shortly after startup and daily. Choose **Check for updates** from the widget or tray menu to check immediately. When a newer stable version is available, you can open the release page. Downloads and installation remain manual; update checks send no account credentials or workspace data.
+Tiles now snap edge-to-edge and align with nearby tiles while you drag them. **Snap to other tiles** is enabled by default under **Update Layout**; drag away to separate tiles or switch it off for free placement. Hidden tiles are ignored and locked tiles stay put.
+
+Charts keep their three horizontal gridlines at fixed heights. Price labels automatically use nearby round values and clean intervals suited to the visible range, while keeping all plotted prices visible. Existing workspaces, colors and opacity are preserved.
 
 ### Finance app name
 
@@ -63,7 +69,7 @@ Clean tiles with a bold price and arrow, percentage based on the visible graph, 
 | --- | --- |
 | Home | Asset search, category filters, news, tracked movers and manual calendar dates |
 | Portfolio | Local buys/sells/dividends, holdings, average cost and P&L |
-| Update Layout | Resize, grid, alignment, mini mode, locking and mouse click-through |
+| Update Layout | Tile snapping, resize, grid, alignment, mini mode, locking and mouse click-through |
 | Color Settings | Foreground/background palettes, opacity, price flashes and volume bars |
 | Keybindings | Custom shortcuts for focused widgets |
 | My Widgets | Show/hide, bring forward, remove, pin and select chart range |
