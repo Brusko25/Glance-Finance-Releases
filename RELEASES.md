@@ -1,5 +1,9 @@
 # Release history
 
+## [Glance Finance 2.6.0](https://github.com/Brusko25/Glance-Finance-Releases/releases/tag/v2.6.0) — 2026-09-21
+
+Redesigned workspace with top navigation, Overview desktop map, tile dock and show/hide-all controls. Save and restore a desktop setup, choose appearance presets, browse six assets per page, and use wider charts with tighter margins. Includes refreshed screenshots, Windows installer, portable ZIP and checksums. Existing workspaces and financial data are preserved.
+
 ## [Glance Finance 2.5.0](https://github.com/Brusko25/Glance-Finance-Releases/releases/tag/v2.5.0) — 2026-09-20
 
 Tiles snap to nearby tile edges while dragging, with a saved toggle in Update Layout. Charts use fixed horizontal gridline positions and automatically chosen round price labels. Includes an installer, portable ZIP, checksums and new screenshots. Existing workspaces and appearance settings are preserved.

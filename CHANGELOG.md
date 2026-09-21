@@ -1,5 +1,14 @@
 # Changelog
 
+## 2.6.0 — 2026-09-21
+
+- Redesign the control panel as a Glance workspace with top navigation, a copper-and-ink theme, a right-side tile dock, and an Overview dashboard with a clickable desktop map.
+- Add show/hide-all tile controls and True black, Ink and Paper presets with a sample preview. Expand asset browsing to six results per page and reorganize portfolio metrics.
+
+- Save the current tile setup and load it later to restore positions, sizes, closed tiles, chart ranges and appearance.
+
+- Reduce chart side margins: price labels sit near the left edge, and the graph extends closer to the right edge.
+
 ## 2.5.0 — 2026-09-20
 
 - Snap nearby widget edges together while dragging, with a saved toggle under Update Layout.
