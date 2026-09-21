@@ -1,6 +1,6 @@
 # Glance Finance user guide
 
-Version 2.6.0 · Windows 10/11 · .NET Framework 4.8
+Version 2.6.1 · Windows 10/11 · .NET Framework 4.8
 
 ## Open and close
 
@@ -57,7 +57,7 @@ Widgets, layout, colors, shortcuts, calendar entries and transactions are saved 
 
 Download the Windows installer or portable ZIP from [Glance Finance Releases](https://github.com/Brusko25/Glance-Finance-Releases/releases/latest).
 GitHub's automatic Source code archives contain release documentation, not the app.
-Installing updates is manual: use **Quit**, back up workspace.json, and run the new installer over the same installation, or replace the executable and documentation in a portable folder. Neither package contains user data. The installer defaults to `%LOCALAPPDATA%\Programs\Glance Finance`. Uninstalling removes installed program files and shortcuts but preserves workspace files; delete those yourself only if you want to remove your data. Moving from an existing portable folder requires copying its workspace.json into the installed app folder while the app is closed. The application and installer are unsigned.
+Use **Check for updates → Update now** for future releases. To install manually, use **Quit**, back up workspace.json, and run the new installer over the same installation, or replace the executable and documentation in a portable folder. Neither package contains user data. The installer defaults to `%LOCALAPPDATA%\Programs\Glance Finance`. Uninstalling removes installed program files and shortcuts but preserves workspace files; delete those yourself only if you want to remove your data. Moving from an existing portable folder requires copying its workspace.json into the installed app folder while the app is closed. The application and installer are unsigned.
 
 Report problems through [GitHub Issues](https://github.com/Brusko25/Glance-Finance-Releases/issues).
 Include the app version (shown under About), Windows version, reproduction steps,
@@ -71,4 +71,8 @@ Version 2.4.0 mistakenly used the Glance LLM Usage name. Version 2.4.1 restores 
 
 ## Checking for new versions
 
-The app checks its public GitHub releases shortly after startup and daily. Choose **Check for updates** from the widget or tray menu to check immediately. When a newer stable version is available, you can open the release page. Downloads and installation remain manual; update checks send no account credentials or workspace data.
+The app checks its public GitHub releases shortly after startup and daily. Choose **Check for updates** from the workspace, widget or tray menu. When a newer stable version is available, choose **Update now** to download and verify it, save and back up your workspace, update the existing copy, and restart. **Not now** leaves the app unchanged; downloads can be cancelled.
+
+Installed copies use the Windows installer in their existing folder. Portable copies replace only the executable and bundled documentation, with rollback if replacement fails. Your tiles, saved setup, portfolio and calendar stay in workspace.json. A timestamped workspace.json.before-update backup is kept beside it. Update checks and downloads send no account credentials or workspace data.
+
+Version 2.6.0 and earlier need one manual installation of a version containing this updater. After that, updates can be installed from inside the app. Weekly charts use short weekday labels such as Thu, Fri and Mon; stock charts still skip closed-market days.

@@ -11,46 +11,46 @@ and keep a local record of your USD investments.
 
 ## Screenshots
 
-Glance Finance 2.6.0, captured from the release build using isolated example data. Click any image to see it full size.
+Glance Finance 2.6.1, captured from the release build using isolated example data. Click any image to see it full size.
 
-[![Glance Overview with desktop map, tracked assets, and tile dock](images/v2.6.0/overview.png)](images/v2.6.0/overview.png)
+[![Glance Overview with desktop map, tracked assets, and tile dock](images/v2.6.1/overview.png)](images/v2.6.1/overview.png)
 
 **Your workspace at a glance.** The Overview dashboard and tile dock use an offline example workspace. Live quotes and news are inactive in this fixture.
 
 | Save and restore your setup | Customize your tiles |
 | --- | --- |
-| [![Desktop arrangement and saved setup controls](images/v2.6.0/layout.png)](images/v2.6.0/layout.png) | [![Appearance presets and labeled sample preview](images/v2.6.0/appearance.png)](images/v2.6.0/appearance.png) |
+| [![Desktop arrangement and saved setup controls](images/v2.6.1/layout.png)](images/v2.6.1/layout.png) | [![Appearance presets and labeled sample preview](images/v2.6.1/appearance.png)](images/v2.6.1/appearance.png) |
 | Save current setup before moving or closing tiles; Load saved setup restores it. | True black, Ink and Paper presets with a sample preview. |
 
 | Discover assets | Track your portfolio |
 | --- | --- |
-| [![Discover search with six results and add tile buttons](images/v2.6.0/home.png)](images/v2.6.0/home.png) | [![Portfolio summary cards and illustrative holdings](images/v2.6.0/portfolio.png)](images/v2.6.0/portfolio.png) |
+| [![Discover search with six results and add tile buttons](images/v2.6.1/home.png)](images/v2.6.1/home.png) | [![Portfolio summary cards and illustrative holdings](images/v2.6.1/portfolio.png)](images/v2.6.1/portfolio.png) |
 | Offline example asset search. | Illustrative transactions; live valuations are disabled. |
 
-[![Apple, NVIDIA, Ethereum and Solana five-day chart tiles](images/v2.6.0/widgets.png)](images/v2.6.0/widgets.png)
+[![Apple, NVIDIA, Ethereum and Solana five-day chart tiles](images/v2.6.1/widgets.png)](images/v2.6.1/widgets.png)
 
-**Wider charts.** Public market snapshots captured September 21, 2026, independently of any personal workspace. Prices may reflect closed sessions. These are static screenshots.
+**Simple weekday labels.** Public market snapshots captured September 21, 2026, independently of any personal workspace. Prices may reflect closed sessions. These are static screenshots.
 
-[Image provenance and capture details](images/v2.6.0/README.md)
+[Image provenance and capture details](images/v2.6.1/README.md)
 
 ## Get started
 
-1. Download **Glance-Finance-v2.6.0-Setup.exe** from the release page.
+1. Download **Glance-Finance-v2.6.1-Setup.exe** from the release page.
 2. Run setup on Windows 10/11 with .NET Framework 4.8. It installs for your user without administrator rights.
 3. Open **Glance Finance** from the Start menu. A desktop shortcut is optional.
 4. Use **Discover** to add tiles. Right-click a tile for its time range, coin, lock, and other options.
 
-Prefer a portable copy? Download **Glance-Finance-v2.6.0-Windows.zip**, extract it into a writable folder, and run GlanceFinance.exe.
+Prefer a portable copy? Download **Glance-Finance-v2.6.1-Windows.zip**, extract it into a writable folder, and run GlanceFinance.exe.
 
 The app and installer are unsigned. **SHA256SUMS.txt** lists hashes for both downloads. GitHub's automatic Source code archives contain documentation, not the app.
 
-## New in 2.6.0
+## New in 2.6.1
 
-A redesigned Glance workspace brings top navigation, an Overview dashboard with a clickable desktop map, and a persistent tile dock with Show all / Hide all controls.
+Choose **Check for updates → Update now** to download and verify a new release, save and back up your workspace, update the existing app, and restart. Downloads can be cancelled. Installed and portable copies keep their existing folder, tiles, saved setup, portfolio and calendar.
 
-Under **Desktop**, choose **Save current setup**, experiment with moving or closing tiles, then **Load saved setup** to restore saved positions, sizes, chart ranges and appearance. Saving again replaces the snapshot. Your portfolio and calendar stay independent.
+**If you use version 2.6.0 or earlier, install 2.6.1 manually once to enable future in-app updates.**
 
-Appearance adds True black, Ink and Paper presets with a sample preview. Discover shows six results per page, portfolio metrics are easier to scan, and tighter chart margins leave more room for the graph. Existing workspaces and data are preserved.
+Weekly charts now use short weekday-only labels such as Thu, Fri and Mon on both stock and crypto tiles. Stocks still skip closed-market days.
 
 ### Finance app name
 
@@ -91,9 +91,9 @@ they can be delayed, unavailable or reflect a closed market. Yahoo's public
 endpoints are unofficial. Portfolio totals support USD assets; calendar dates
 are entered manually.
 
-Installing updates is manual: use Quit, back up `workspace.json`, and rerun the installer over the same folder, or replace your portable executable and documentation. Uninstalling preserves workspace files. Download ZIPs contain
+From version 2.6.1, use **Check for updates → Update now**. For a manual update, use Quit, back up `workspace.json`, and rerun the installer over the same folder, or replace your portable executable and documentation. Uninstalling preserves workspace files. Download ZIPs contain
 no settings or workspace files. `version.json` is public release metadata;
-new releases are detected automatically, with installation kept manual.
+new releases are detected automatically, and installation starts only when you choose **Update now**.
 
 ## Support and history
 

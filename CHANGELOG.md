@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.6.1 — 2026-09-21
+
+- Add an in-app Update now flow with verified downloads, cancellation, workspace backup, installation and automatic restart. Installed and portable copies keep their existing folder and data.
+- Use short weekday-only labels on all weekly charts, including stocks.
+
 ## 2.6.0 — 2026-09-21
 
 - Redesign the control panel as a Glance workspace with top navigation, a copper-and-ink theme, a right-side tile dock, and an Overview dashboard with a clickable desktop map.

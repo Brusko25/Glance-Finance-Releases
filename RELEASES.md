@@ -1,5 +1,9 @@
 # Release history
 
+## [Glance Finance 2.6.1](https://github.com/Brusko25/Glance-Finance-Releases/releases/tag/v2.6.1) — 2026-09-21
+
+Install future updates from inside the app with verified downloads, workspace backup, cancellation and automatic restart. Installed and portable copies retain their folder and data. Weekly stock and crypto chart labels use short weekday names. Version 2.6.0 and earlier require one manual upgrade to enable in-app installation. Includes Windows installer, portable ZIP, checksums and current screenshots.
+
 ## [Glance Finance 2.6.0](https://github.com/Brusko25/Glance-Finance-Releases/releases/tag/v2.6.0) — 2026-09-21
 
 Redesigned workspace with top navigation, Overview desktop map, tile dock and show/hide-all controls. Save and restore a desktop setup, choose appearance presets, browse six assets per page, and use wider charts with tighter margins. Includes refreshed screenshots, Windows installer, portable ZIP and checksums. Existing workspaces and financial data are preserved.
