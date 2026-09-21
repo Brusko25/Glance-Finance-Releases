@@ -1,8 +1,8 @@
 {
-  "version": "2.6.1",
-  "download_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.6.1/Glance-Finance-v2.6.1-Windows.zip",
-  "installer_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.6.1/Glance-Finance-v2.6.1-Setup.exe",
-  "installer_sha256": "30b034ab51c3a5411f842e5295eb04e0bedd76e27c8947fb8659d9e893cfcf64",
-  "changelog": "Install updates inside Glance Finance with verified downloads, workspace backup and automatic restart. Installed and portable copies preserve their existing folder and data. Weekly charts now use short weekday-only labels.",
-  "sha256": "40a440c68460bee66b680378c60df888a7ee25f55c7738559ae6db315d8a8b1d"
+  "version": "2.6.2",
+  "download_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.6.2/Glance-Finance-v2.6.2-Windows.zip",
+  "installer_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.6.2/Glance-Finance-v2.6.2-Setup.exe",
+  "installer_sha256": "6cfcaffbec3fdd5e4ba298d2ad1086632a24f898d2ba4bb2bb5afdef1cc32e7a",
+  "changelog": "Responsive layouts across every workspace tab. Expand holdings and transactions to fill the window, show more search results and dashboard content, and arrange settings into columns while preserving your active work.",
+  "sha256": "639a9306675e57a9c96f51f6b92410539eaa1f99343e0645da433e73924077ab"
 }
