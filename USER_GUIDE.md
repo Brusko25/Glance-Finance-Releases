@@ -1,6 +1,6 @@
 # Glance Finance user guide
 
-Version 2.6.1 · Windows 10/11 · .NET Framework 4.8
+Version 2.6.2 · Windows 10/11 · .NET Framework 4.8
 
 ## Open and close
 
@@ -10,9 +10,11 @@ Closing the panel keeps widgets running. Open it again from a widget's menu, Ctr
 
 ## Glance workspace
 
+Every tab adapts to the available window space. Wider windows use columns for related controls; taller windows show more dashboard content and search results. Resize or maximize the window without losing your active search or entered settings.
+
 - **Overview:** desktop map with clickable tiles, last available quotes for your assets, market headlines and upcoming calendar events.
-- **Discover:** search a company or symbol, filter All / Stocks / Funds / Indices / Futures / Forex / Crypto, and use + to add any search result as a desktop widget. The arrows below the results show more matches. Shows six results per page, daily movers among tracked assets and reference symbols, and your calendar.
-- **Portfolio:** record buys, sells, and cash dividends for USD stocks, funds, and crypto. See holdings, average cost, market value, unrealized/realized P&L, dividends, and a transaction ledger. Fees are included. Entries stay local; they do not submit brokerage orders. Backdated sales are checked against the entire transaction history. Removing a transaction is prevented if it would leave a later sale without enough units.
+- **Discover:** search a company or symbol, filter All / Stocks / Funds / Indices / Futures / Forex / Crypto, and use + to add any search result as a desktop widget. The arrows below the results show more matches. Shows more results as the window grows, daily movers among tracked assets and reference symbols, and your calendar.
+- **Portfolio:** resize or maximize the window to expand the holdings and transactions tables. Compact rows show more entries; wide windows place all six summary metrics in a single row. Record buys, sells, and cash dividends for USD stocks, funds, and crypto. See holdings, average cost, market value, unrealized/realized P&L, dividends, and a transaction ledger. Fees are included. Entries stay local; they do not submit brokerage orders. Backdated sales are checked against the entire transaction history. Removing a transaction is prevented if it would leave a later sale without enough units.
 - **Desktop:** save the current setup and load it later to restore your tiles, resize all widgets, arrange a grid, align edges or stack vertically, snap to nearby tile edges while dragging (enabled by default), snap to a 24-pixel grid, show a mini header, lock positions, enable mouse click-through, and change default width/height. Width and height changes apply to all widgets. Grid and alignment are explicit placement commands even when dragging is locked.
 - **Appearance:** True black, Ink and Paper presets with a labeled sample preview; foreground palette and custom colors; separate up/down colors; optional price-change flashes; background palette; 50–100% opacity; and optional volume bars with a custom color. Changes apply immediately to all widgets.
 - **Shortcuts:** click a shortcut field and press a replacement combination. Duplicate bindings are rejected. These are local shortcuts, active when a widget is focused.

@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.6.2 — 2026-09-21
+
+- Make every workspace tab responsive: expand the Overview dashboard, show more Discover results, and arrange Desktop, Appearance, Shortcuts and tile controls into columns when space permits. Resizing preserves active searches and settings.
+
+- Expand portfolio tables to fill the window, with compact summary cards and denser rows. Wide windows place all six metrics in one row. Height-only resizing preserves table selection, sorting and scroll position.
+
 ## 2.6.1 — 2026-09-21
 
 - Add an in-app Update now flow with verified downloads, cancellation, workspace backup, installation and automatic restart. Installed and portable copies keep their existing folder and data.
