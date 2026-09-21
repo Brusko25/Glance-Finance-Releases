@@ -1,8 +1,8 @@
 {
-  "version": "2.4.2",
-  "download_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.4.2/Glance-Finance-v2.4.2-Windows.zip",
-  "installer_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.4.2/Glance-Finance-v2.4.2-Setup.exe",
-  "installer_sha256": "32245786ba4bdcec1b1539b502815c8bde3a69ad5e2eb454e818a45e4a8c658a",
-  "changelog": "Detect newer stable releases at startup and daily, with manual checks and optional links to downloads. Installation remains manual and existing settings are preserved.",
-  "sha256": "c2db013dd8ec52d5123feb4ef01f3fcae753c2cdd0fdecaa835341c6a5c8b78b"
+  "version": "2.5.0",
+  "download_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.5.0/Glance-Finance-v2.5.0-Windows.zip",
+  "installer_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.5.0/Glance-Finance-v2.5.0-Setup.exe",
+  "installer_sha256": "0810609b242b4a4e87d3aeac3dd75390c42ec29cea38a914d8e2b1e744a71db2",
+  "changelog": "Snap nearby tiles together while dragging and read charts using fixed horizontal gridlines with automatically rounded price labels. Tile snapping is enabled by default and can be changed in Update Layout. Existing workspaces and appearance settings are preserved.",
+  "sha256": "735cbbad2e884120e345679027fffd8050622b8d1fe7a34a6178700a03ab4ebf"
 }
