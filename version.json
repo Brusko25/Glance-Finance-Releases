@@ -1,8 +1,8 @@
 {
-  "version": "2.6.0",
-  "download_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.6.0/Glance-Finance-v2.6.0-Windows.zip",
-  "installer_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.6.0/Glance-Finance-v2.6.0-Setup.exe",
-  "installer_sha256": "d97f485fe5c3f7bdac520e631eab2a6c249fcc52d9a08b8131e692bc44e99090",
-  "changelog": "A redesigned Glance workspace with Overview, clickable desktop map, top navigation and tile dock. Save and restore your setup under Desktop, show or hide all tiles, use appearance presets, and enjoy wider charts. Existing workspaces and portfolio records are preserved.",
-  "sha256": "5855e584d19cd8d257ee45f1d531e5b7cb432e4c940cc12a557d4a6216c61b76"
+  "version": "2.6.1",
+  "download_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.6.1/Glance-Finance-v2.6.1-Windows.zip",
+  "installer_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.6.1/Glance-Finance-v2.6.1-Setup.exe",
+  "installer_sha256": "30b034ab51c3a5411f842e5295eb04e0bedd76e27c8947fb8659d9e893cfcf64",
+  "changelog": "Install updates inside Glance Finance with verified downloads, workspace backup and automatic restart. Installed and portable copies preserve their existing folder and data. Weekly charts now use short weekday-only labels.",
+  "sha256": "40a440c68460bee66b680378c60df888a7ee25f55c7738559ae6db315d8a8b1d"
 }
