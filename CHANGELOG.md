@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.6.3 — 2026-09-21
+
+- Support shared snapping with other Glance apps that implement the v1 window marker, retaining grid fallback, locks, saved settings and independent movement. Rename the Desktop toggle to **Snap to Glance widgets**.
+- Remove repeated page headings and subtitles, moving tab content upward to use the freed space.
+
 ## 2.6.2 — 2026-09-21
 
 - Make every workspace tab responsive: expand the Overview dashboard, show more Discover results, and arrange Desktop, Appearance, Shortcuts and tile controls into columns when space permits. Resizing preserves active searches and settings.

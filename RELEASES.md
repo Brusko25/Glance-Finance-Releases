@@ -1,5 +1,9 @@
 # Release history
 
+## [Glance Finance 2.6.3](https://github.com/Brusko25/Glance-Finance-Releases/releases/tag/v2.6.3) — 2026-09-21
+
+Shared v1 snapping with compatible Glance apps, preserving locks, grid fallback and saved preferences. Repeated tab headings and subtitles are removed. Cross-process fixtures pass; real Usage/Plex pairings and mixed-display visual checks remain unverified. Includes installer, portable ZIP, checksums and current screenshots.
+
 ## [Glance Finance 2.6.2](https://github.com/Brusko25/Glance-Finance-Releases/releases/tag/v2.6.2) — 2026-09-21
 
 Responsive layouts across every tab, expanding holdings and transactions, compact portfolio summaries, more search results and dashboard content, and settings arranged in columns. Resizing preserves active work. Includes installer, portable ZIP, checksums and screenshots from isolated example data.
