@@ -1,6 +1,6 @@
 # Glance Finance user guide
 
-Version 2.6.3 · Windows 10/11 · .NET Framework 4.8
+Version 2.6.4 · Windows 10/11 · .NET Framework 4.8
 
 ## Open and close
 
@@ -14,7 +14,7 @@ Every tab adapts to the available window space. Wider windows use columns for re
 
 - **Overview:** desktop map with clickable tiles, last available quotes for your assets, market headlines and upcoming calendar events.
 - **Discover:** search a company or symbol, filter All / Stocks / Funds / Indices / Futures / Forex / Crypto, and use + to add any search result as a desktop widget. The arrows below the results show more matches. Shows more results as the window grows, daily movers among tracked assets and reference symbols, and your calendar.
-- **Portfolio:** resize or maximize the window to expand the holdings and transactions tables. Compact rows show more entries; wide windows place all six summary metrics in a single row. Record buys, sells, and cash dividends for USD stocks, funds, and crypto. See holdings, average cost, market value, unrealized/realized P&L, dividends, and a transaction ledger. Fees are included. Entries stay local; they do not submit brokerage orders. Backdated sales are checked against the entire transaction history. Removing a transaction is prevented if it would leave a later sale without enough units.
+- **Portfolio:** resize or maximize the window to expand the holdings and transactions tables. Compact rows show more entries; wide windows place all six summary metrics in a single row. Record buys, sells, and cash dividends for USD stocks, funds, and crypto. See holdings, average cost, market value, unrealized/realized P&L, dividends, and a transaction ledger. Fees are included. Entries stay local; they do not submit brokerage orders. Backdated sales are checked against the entire transaction history. Transaction and event dates stay in local time after restarting. Removing a transaction asks you to confirm its date, symbol and values, and is prevented if it would leave a later sale without enough units. Quote refreshes keep the selected row and do not rebuild the Transactions table. Calendar removal also asks for confirmation.
 - **Desktop:** save the current setup and load it later to restore your tiles, resize all widgets, arrange a grid, align edges or stack vertically, snap to nearby compatible Glance widgets while dragging (enabled by default), snap to a 24-pixel grid, show a mini header, lock positions, enable mouse click-through, and change default width/height. Width and height changes apply to all widgets. Grid and alignment are explicit placement commands even when dragging is locked.
 - **Appearance:** True black, Ink and Paper presets with a labeled sample preview; foreground palette and custom colors; separate up/down colors; optional price-change flashes; background palette; 50–100% opacity; and optional volume bars with a custom color. Changes apply immediately to all widgets.
 - **Shortcuts:** click a shortcut field and press a replacement combination. Duplicate bindings are rejected. These are local shortcuts, active when a widget is focused.
@@ -52,7 +52,7 @@ Upcoming events is a manual personal calendar, not an automatic earnings/economi
 
 **Save current setup** in **Desktop** stores a separate snapshot of your tiles, their positions, sizes, chart ranges, visibility, pin/lock settings, colors and other widget preferences. **Load saved setup** restores that snapshot, reopens closed tiles and removes tiles added since it was saved. Moving, resizing or closing tiles does not overwrite the snapshot. Saving again replaces it. It survives quitting and reopening the app. Portfolio transactions and calendar entries are not part of the snapshot and remain unchanged when loading it. If a monitor is disconnected, restored tiles are kept on an available screen.
 
-Widgets, layout, colors, shortcuts, calendar entries and transactions are saved beside the executable in **workspace.json**, with the previous save in **workspace.json.bak**. The first version's **settings.json** is imported on the first launch of version 2 and left in place. A damaged workspace is preserved with an `.unreadable-<timestamp>` suffix before a fresh workspace is used. Copy the executable and workspace into a writable folder for a portable copy.
+Widgets, layout, colors, shortcuts, calendar entries and transactions are saved beside the executable in **workspace.json**, with the previous save in **workspace.json.bak**. The first version's **settings.json** is imported on the first launch of version 2 and left in place. If a workspace cannot be read, the app first preserves it with an `.unreadable-<timestamp>` suffix, then restores a readable `.bak` or starts empty if none is usable. A startup message explains the recovery; the warning remains in About and the status line for that session even after saving. If the unreadable original cannot be copied, saving is paused to protect it. Temporary save files are flushed before replacement to reduce incomplete-save risk. Copy the executable and workspace into a writable folder for a portable copy.
 
 
 ## Downloads, updates and support

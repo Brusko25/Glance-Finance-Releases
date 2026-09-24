@@ -1,5 +1,9 @@
 # Release history
 
+## [Glance Finance 2.6.4](https://github.com/Brusko25/Glance-Finance-Releases/releases/tag/v2.6.4) — 2026-09-23
+
+Correct local dates after restarting, preserve unreadable workspaces and recover backups, flush saves before replacement, and confirm transaction/calendar removal. Holdings selection survives refreshes; quote updates leave the Transactions table in place. Includes the Windows installer, portable ZIP, checksums and reviewed screenshots from isolated example data.
+
 ## [Glance Finance 2.6.3](https://github.com/Brusko25/Glance-Finance-Releases/releases/tag/v2.6.3) — 2026-09-21
 
 Shared v1 snapping with compatible Glance apps, preserving locks, grid fallback and saved preferences. Repeated tab headings and subtitles are removed. Cross-process fixtures pass; real Usage/Plex pairings and mixed-display visual checks remain unverified. Includes installer, portable ZIP, checksums and current screenshots.

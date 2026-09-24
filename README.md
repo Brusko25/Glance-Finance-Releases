@@ -11,43 +11,37 @@ and keep a local record of your USD investments.
 
 ## Screenshots
 
-Glance Finance 2.6.3, captured from the release build using isolated example data. Click any image to see it full size.
+Glance Finance 2.6.4, captured from the release build using isolated example data. Click an image to see it full size. Quotes and news are disabled in these panel fixtures; holdings and transactions are illustrative.
 
-[![Overview dashboard with more room after removing the repeated page heading](images/v2.6.3/overview.png)](images/v2.6.3/overview.png)
+[![Glance Finance Overview with desktop map and tile dock](images/v2.6.4/overview.png)](images/v2.6.4/overview.png)
 
-**More space for your workspace.** Tab content starts higher, with the repeated headings and subtitles removed. This offline example has live quotes and news disabled.
-
-[![Desktop controls with Snap to Glance widgets beside grid and lock settings](images/v2.6.3/desktop.png)](images/v2.6.3/desktop.png)
-
-**One snapping preference.** Snap to Glance widgets uses the shared v1 protocol with compatible apps. Usage/Plex need matching updates; this settings preview does not demonstrate those pairings.
-
-| Track your portfolio | Customize your tiles |
+| Review your transactions | Track your holdings |
 | --- | --- |
-| [![Expanded portfolio table with illustrative holdings](images/v2.6.3/portfolio.png)](images/v2.6.3/portfolio.png) | [![Appearance controls without a repeated page heading](images/v2.6.3/appearance.png)](images/v2.6.3/appearance.png) |
-| All transactions and valuations shown are illustrative. | Expanded controls and a labeled sample preview. |
+| [![Transaction ledger with the Remove selected control](images/v2.6.4/transactions.png)](images/v2.6.4/transactions.png) | [![Portfolio summary and illustrative holdings](images/v2.6.4/portfolio.png)](images/v2.6.4/portfolio.png) |
+| Removal now asks for confirmation; quote refreshes retain selection. | Holdings selection survives price refreshes. |
 
-[Image provenance and capture details](images/v2.6.3/README.md)
+[![Appearance settings with a labeled sample tile preview](images/v2.6.4/appearance.png)](images/v2.6.4/appearance.png)
+
+[Image provenance and capture details](images/v2.6.4/README.md)
 
 ## Get started
 
-1. Download **Glance-Finance-v2.6.3-Setup.exe** from the release page.
+1. Download **Glance-Finance-v2.6.4-Setup.exe** from the release page.
 2. Run setup on Windows 10/11 with .NET Framework 4.8. It installs for your user without administrator rights.
 3. Open **Glance Finance** from the Start menu. A desktop shortcut is optional.
 4. Use **Discover** to add tiles. Right-click a tile for its time range, coin, lock, and other options.
 
-Prefer a portable copy? Download **Glance-Finance-v2.6.3-Windows.zip**, extract it into a writable folder, and run GlanceFinance.exe.
+Prefer a portable copy? Download **Glance-Finance-v2.6.4-Windows.zip**, extract it into a writable folder, and run GlanceFinance.exe.
 
 The app and installer are unsigned. **SHA256SUMS.txt** lists hashes for both downloads. GitHub's automatic Source code archives contain documentation, not the app.
 
-## New in 2.6.3
+## New in 2.6.4
 
-Finance tiles can snap to compatible Glance widgets through the shared v1 window marker. **Desktop → Snap to Glance widgets** retains your existing preference. Grid fallback, locks and saved positions still work, and only the dragged widget moves. Hidden, minimized, cloaked and ineligible desktop windows are excluded.
+Transaction and calendar dates stay in local time after restarting, including evening entries and same-day purchases and sales. An unreadable workspace is preserved before recovery from the previous backup, with a visible explanation; saving pauses if the original cannot be copied. Saves are flushed before replacement to reduce incomplete-save risk.
 
-Repeated page headings and subtitles have been removed from every tab, giving more space to the responsive layouts.
+Removing a transaction or calendar event now asks for confirmation. Quote refreshes preserve the selected holding and leave the Transactions table in place, so a refresh cannot silently change which row you remove.
 
-Cross-process fixtures passed in both directions. Actual Usage/Plex candidate pairings, mixed-monitor DPI and virtual-desktop switching still need visual validation. Older apps without the shared marker do not participate; Usage and Plex require compatible updates.
-
-Use **Check for updates → Update now** from version 2.6.1 or newer. Existing workspaces stay intact. Versions 2.6.0 and earlier need one manual upgrade to enable in-app installation.
+Use **Check for updates → Update now** from version 2.6.1 or newer. Versions 2.6.0 and earlier need one manual upgrade to enable in-app installation.
 
 ### Finance app name
 

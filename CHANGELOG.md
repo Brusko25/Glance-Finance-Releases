@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.6.4 — 2026-09-23
+
+- Keep transaction and calendar dates in local time after restarting. Evening entries no longer move to the next day, and a sale made the same day as its purchase is no longer rejected after a restart.
+- If the workspace file can't be read, restore the most recent backup (or start empty), keep the unreadable file aside, and explain what happened. Saving pauses if the unreadable file can't be preserved.
+- Write workspace saves through to disk before replacing the file, reducing the risk of incomplete saves after a power loss or forced restart.
+- Ask before removing a transaction or calendar event. Price refreshes no longer rebuild the Transactions tab or move the selected row.
+
 ## 2.6.3 — 2026-09-21
 
 - Support shared snapping with other Glance apps that implement the v1 window marker, retaining grid fallback, locks, saved settings and independent movement. Rename the Desktop toggle to **Snap to Glance widgets**.
