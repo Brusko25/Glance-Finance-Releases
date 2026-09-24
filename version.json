@@ -1,8 +1,8 @@
 {
-  "version": "2.6.3",
-  "download_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.6.3/Glance-Finance-v2.6.3-Windows.zip",
-  "installer_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.6.3/Glance-Finance-v2.6.3-Setup.exe",
-  "installer_sha256": "8b00a50fbb6c5e058482eb563e4e8ae665a21b6afd58197dc1ecb2ab2c7722a5",
-  "changelog": "Snap Finance tiles to compatible Glance widgets using the shared v1 protocol. Preserve grid fallback, locks and saved preferences. Cleaner tabs remove repeated headings and give more space to content. Other apps require compatible updates.",
-  "sha256": "272208b8182b3053cab83664617a17acc2b3063bef534925ca44190f5ec2770a"
+  "version": "2.6.4",
+  "download_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.6.4/Glance-Finance-v2.6.4-Windows.zip",
+  "installer_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.6.4/Glance-Finance-v2.6.4-Setup.exe",
+  "installer_sha256": "71b2bf74e0a99b642a308bf799a8d8b8bc5a1389b3b41a834fe9af02d8bb846e",
+  "changelog": "Keep transaction and calendar dates correct after restarting; recover unreadable workspaces safely; flush saves before replacement; confirm removals and preserve portfolio selection.",
+  "sha256": "ed1692011cdc33ea4b068cfb844850c5ced30aed1f1b1578661adb887acdfe98"
 }
