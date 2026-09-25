@@ -1,5 +1,9 @@
 # Release history
 
+## [Glance Finance 2.6.5](https://github.com/Brusko25/Glance-Finance-Releases/releases/tag/v2.6.5) — 2026-09-25
+
+Failed price refreshes back off from 30 seconds to 5 minutes instead of retrying every 15 seconds, and the tooltip shows the next try. The control panel refreshes only while it's on screen, and refreshes pause while Windows is locked or asleep. Shared fonts, digit shortcut labels and accurate price sources in About. Includes the Windows installer, portable ZIP, checksums and reviewed screenshots from isolated example data.
+
 ## [Glance Finance 2.6.4](https://github.com/Brusko25/Glance-Finance-Releases/releases/tag/v2.6.4) — 2026-09-23
 
 Correct local dates after restarting, preserve unreadable workspaces and recover backups, flush saves before replacement, and confirm transaction/calendar removal. Holdings selection survives refreshes; quote updates leave the Transactions table in place. Includes the Windows installer, portable ZIP, checksums and reviewed screenshots from isolated example data.

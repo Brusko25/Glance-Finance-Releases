@@ -11,35 +11,39 @@ and keep a local record of your USD investments.
 
 ## Screenshots
 
-Glance Finance 2.6.4, captured from the release build using isolated example data. Click an image to see it full size. Quotes and news are disabled in these panel fixtures; holdings and transactions are illustrative.
+Glance Finance 2.6.5, captured from the release build using isolated example data. Click an image to see it full size. Quotes and news are disabled in these panel fixtures; holdings and transactions are illustrative.
 
-[![Glance Finance Overview with desktop map and tile dock](images/v2.6.4/overview.png)](images/v2.6.4/overview.png)
+[![Glance Finance Overview with desktop map and tile dock](images/v2.6.5/overview.png)](images/v2.6.5/overview.png)
 
 | Review your transactions | Track your holdings |
 | --- | --- |
-| [![Transaction ledger with the Remove selected control](images/v2.6.4/transactions.png)](images/v2.6.4/transactions.png) | [![Portfolio summary and illustrative holdings](images/v2.6.4/portfolio.png)](images/v2.6.4/portfolio.png) |
-| Removal now asks for confirmation; quote refreshes retain selection. | Holdings selection survives price refreshes. |
+| [![Transaction ledger with the Remove selected control](images/v2.6.5/transactions.png)](images/v2.6.5/transactions.png) | [![Portfolio summary and illustrative holdings](images/v2.6.5/portfolio.png)](images/v2.6.5/portfolio.png) |
+| Removal asks for confirmation; quote refreshes retain selection. | Holdings selection survives price refreshes. |
 
-[![Appearance settings with a labeled sample tile preview](images/v2.6.4/appearance.png)](images/v2.6.4/appearance.png)
+[![Appearance settings with a labeled sample tile preview](images/v2.6.5/appearance.png)](images/v2.6.5/appearance.png)
 
-[Image provenance and capture details](images/v2.6.4/README.md)
+[Image provenance and capture details](images/v2.6.5/README.md)
 
 ## Get started
 
-1. Download **Glance-Finance-v2.6.4-Setup.exe** from the release page.
+1. Download **Glance-Finance-v2.6.5-Setup.exe** from the release page.
 2. Run setup on Windows 10/11 with .NET Framework 4.8. It installs for your user without administrator rights.
 3. Open **Glance Finance** from the Start menu. A desktop shortcut is optional.
 4. Use **Discover** to add tiles. Right-click a tile for its time range, coin, lock, and other options.
 
-Prefer a portable copy? Download **Glance-Finance-v2.6.4-Windows.zip**, extract it into a writable folder, and run GlanceFinance.exe.
+Prefer a portable copy? Download **Glance-Finance-v2.6.5-Windows.zip**, extract it into a writable folder, and run GlanceFinance.exe.
 
 The app and installer are unsigned. **SHA256SUMS.txt** lists hashes for both downloads. GitHub's automatic Source code archives contain documentation, not the app.
 
-## New in 2.6.4
+## New in 2.6.5
 
-Transaction and calendar dates stay in local time after restarting, including evening entries and same-day purchases and sales. An unreadable workspace is preserved before recovery from the previous backup, with a visible explanation; saving pauses if the original cannot be copied. Saves are flushed before replacement to reduce incomplete-save risk.
+Quieter, lighter refreshing. When a price refresh fails (for example a provider rate limit), tiles wait longer before each retry, from 30 seconds up to 5 minutes, instead of trying again every 15 seconds. **Refresh now** still retries at once, and the tooltip shows when the next try is. The control panel refreshes prices only while it is on screen, and immediately when you open it. Tiles and the panel pause scheduled refreshes while Windows is locked or asleep.
 
-Removing a transaction or calendar event now asks for confirmation. Quote refreshes preserve the selected holding and leave the Transactions table in place, so a refresh cannot silently change which row you remove.
+Fonts are shared instead of being created on every repaint and right-click. Ctrl+4 through Ctrl+0 shortcuts display as digits instead of "Ctrl+D4", and About names the actual price sources: Yahoo Finance, CoinGecko and Coinbase Exchange.
+
+## Included from 2.6.4
+
+Transaction and calendar dates stay in local time after restarting. An unreadable workspace is preserved before recovery from the previous backup, saves are flushed before replacement, removing a transaction or calendar event asks for confirmation, and quote refreshes keep the selected holding.
 
 Use **Check for updates → Update now** from version 2.6.1 or newer. Versions 2.6.0 and earlier need one manual upgrade to enable in-app installation.
 

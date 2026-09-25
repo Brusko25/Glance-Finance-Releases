@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.6.5 — 2026-09-25
+
+- Failed price refreshes wait longer each time (30 seconds up to 5 minutes) instead of retrying every 15 seconds, which also eases rate limits. Refresh now still retries at once, and the tooltip says when the next try is.
+- The control panel refreshes prices only while it's on screen, and at once when you open it. Widgets and the panel pause scheduled refreshes while Windows is locked or asleep.
+- Fonts are shared instead of created on every repaint, rebuild and right-click.
+- Ctrl+4 through Ctrl+0 shortcuts display as digits instead of "Ctrl+D4".
+- About now names the actual price sources: Yahoo Finance, CoinGecko and Coinbase Exchange.
+
 ## 2.6.4 — 2026-09-23
 
 - Keep transaction and calendar dates in local time after restarting. Evening entries no longer move to the next day, and a sale made the same day as its purchase is no longer rejected after a restart.
