@@ -1,8 +1,8 @@
 {
-  "version": "2.6.5",
-  "download_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.6.5/Glance-Finance-v2.6.5-Windows.zip",
-  "installer_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.6.5/Glance-Finance-v2.6.5-Setup.exe",
-  "installer_sha256": "9799a22aeae42964a236684fedfd535b4ad28c8c60e1a211be0d936604d47b4c",
-  "changelog": "Failed price refreshes back off instead of retrying every 15 seconds; the panel refreshes only while open; refreshes pause while Windows is locked or asleep; shortcut labels and About text fixed.",
-  "sha256": "e671de0084935ad0418807497ddee70ef29465f63bb975674a8003154527750f"
+  "version": "2.6.6",
+  "download_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.6.6/Glance-Finance-v2.6.6-Windows.zip",
+  "installer_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.6.6/Glance-Finance-v2.6.6-Setup.exe",
+  "installer_sha256": "efdc94cd0d2428185d1ccd1ff2b2d593a1122b227a38a81745ccfe7dc9f2f08c",
+  "changelog": "New Glance Finance app icon.",
+  "sha256": "142575bb9869931c2f4bab7739fb2a24e03f339fe46437a708b2501dd72ec03a"
 }
