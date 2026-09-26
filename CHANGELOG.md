@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.6.6 — 2026-09-26
+
+- New app icon: a rising chart line on a black tile. It appears on the app, tray, windows, shortcuts and installer. Nothing else changes.
+
 ## 2.6.5 — 2026-09-25
 
 - Failed price refreshes wait longer each time (30 seconds up to 5 minutes) instead of retrying every 15 seconds, which also eases rate limits. Refresh now still retries at once, and the tooltip says when the next try is.

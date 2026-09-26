@@ -1,5 +1,9 @@
 # Release history
 
+## [Glance Finance 2.6.6](https://github.com/Brusko25/Glance-Finance-Releases/releases/tag/v2.6.6) — 2026-09-26
+
+New app icon: a rising chart line on a black tile, used by the app, tray, windows, shortcuts and installer. Nothing else changes. Includes the Windows installer, portable ZIP, checksums and reviewed screenshots from isolated example data.
+
 ## [Glance Finance 2.6.5](https://github.com/Brusko25/Glance-Finance-Releases/releases/tag/v2.6.5) — 2026-09-25
 
 Failed price refreshes back off from 30 seconds to 5 minutes instead of retrying every 15 seconds, and the tooltip shows the next try. The control panel refreshes only while it's on screen, and refreshes pause while Windows is locked or asleep. Shared fonts, digit shortcut labels and accurate price sources in About. Includes the Windows installer, portable ZIP, checksums and reviewed screenshots from isolated example data.

@@ -1,6 +1,6 @@
 # Glance Finance user guide
 
-Version 2.6.5 · Windows 10/11 · .NET Framework 4.8
+Version 2.6.6 · Windows 10/11 · .NET Framework 4.8
 
 ## Open and close
 
