@@ -1,8 +1,8 @@
 {
-  "version": "2.6.4",
-  "download_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.6.4/Glance-Finance-v2.6.4-Windows.zip",
-  "installer_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.6.4/Glance-Finance-v2.6.4-Setup.exe",
-  "installer_sha256": "71b2bf74e0a99b642a308bf799a8d8b8bc5a1389b3b41a834fe9af02d8bb846e",
-  "changelog": "Keep transaction and calendar dates correct after restarting; recover unreadable workspaces safely; flush saves before replacement; confirm removals and preserve portfolio selection.",
-  "sha256": "ed1692011cdc33ea4b068cfb844850c5ced30aed1f1b1578661adb887acdfe98"
+  "version": "2.6.5",
+  "download_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.6.5/Glance-Finance-v2.6.5-Windows.zip",
+  "installer_url": "https://github.com/Brusko25/Glance-Finance-Releases/releases/download/v2.6.5/Glance-Finance-v2.6.5-Setup.exe",
+  "installer_sha256": "9799a22aeae42964a236684fedfd535b4ad28c8c60e1a211be0d936604d47b4c",
+  "changelog": "Failed price refreshes back off instead of retrying every 15 seconds; the panel refreshes only while open; refreshes pause while Windows is locked or asleep; shortcut labels and About text fixed.",
+  "sha256": "e671de0084935ad0418807497ddee70ef29465f63bb975674a8003154527750f"
 }
