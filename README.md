@@ -1,5 +1,7 @@
 # Glance Finance
 
+> **Final release.** Glance Finance 2.6.6 is the last standalone version. It keeps working, and the in-app update check won't offer anything newer. Glance Finance continues as a tile in [Glance Platform](https://github.com/Brusko25/Glance-Platform-Releases).
+
 Public Windows downloads, release history and support for Glance Finance.
 Application source and development history are maintained in the private
 `Glance-Finance-Code` repository.
